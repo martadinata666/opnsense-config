@@ -397,7 +397,7 @@
         <to>192.168.0.199</to>
       </range>
       <winsserver/>
-      <dnsserver>192.168.0.3</dnsserver>
+      <dnsserver>192.168.0.28</dnsserver>
       <ntpserver/>
       <staticmap>
         <mac>30:9c:23:d8:74:0d</mac>
@@ -666,7 +666,6 @@
         <dnsserver/>
         <ntpserver/>
       </staticmap>
-      <pool/>
     </lan>
   </dhcpd>
   <unbound>
@@ -1113,9 +1112,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>root@192.168.0.6</username>
-    <time>1610640903.2533</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>root@192.168.0.4</username>
+    <time>1610645809.4521</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
