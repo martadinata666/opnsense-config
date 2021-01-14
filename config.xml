@@ -542,6 +542,16 @@
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>52:54:00:d7:62:df</mac>
+        <cid>pihole</cid>
+        <ipaddr>192.168.0.28</ipaddr>
+        <hostname>PiHole</hostname>
+        <arp_table_static_entry>1</arp_table_static_entry>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>94:87:e0:45:39:92</mac>
         <cid>Mi 6X</cid>
         <ipaddr>192.168.0.31</ipaddr>
@@ -1104,8 +1114,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.6</username>
-    <time>1610640789.5511</time>
-    <description>/services_dhcp.php made changes</description>
+    <time>1610640903.2533</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
