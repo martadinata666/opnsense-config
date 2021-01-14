@@ -270,14 +270,6 @@
       <permitrootlogin>1</permitrootlogin>
     </ssh>
     <backup>
-      <nextcloud version="1.0.0">
-        <enabled>0</enabled>
-        <url/>
-        <user/>
-        <password/>
-        <password_encryption/>
-        <backupdir>OPNsense-Backup</backupdir>
-      </nextcloud>
       <git version="1.0.0">
         <enabled>1</enabled>
         <url>https://github.com/martadinata666/opnsense-config.git</url>
@@ -286,6 +278,14 @@
         <user>martadinata666</user>
         <password>Kiodrzrlv5%</password>
       </git>
+      <nextcloud version="1.0.0">
+        <enabled>1</enabled>
+        <url>http://192.168.0.3:8080</url>
+        <user>dedyms</user>
+        <password>tebaklah</password>
+        <password_encryption/>
+        <backupdir>OPNsense-Backup</backupdir>
+      </nextcloud>
     </backup>
     <dnsserver>1.1.1.1</dnsserver>
     <language>en_US</language>
@@ -1114,7 +1114,7 @@
   </widgets>
   <revision>
     <username>root@192.168.0.6</username>
-    <time>1610640455.697</time>
+    <time>1610640484.1109</time>
     <description>/diag_backup.php made changes</description>
   </revision>
   <OPNsense>
