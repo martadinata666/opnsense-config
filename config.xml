@@ -1114,8 +1114,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.7</username>
-    <time>1610811981.8756</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1610812046.3138</time>
+    <description>/vpn_openvpn_client.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2580,34 +2580,6 @@
   </dnsmasq>
   <crl/>
   <openvpn>
-    <openvpn-client>
-      <auth_user>DURU7xrsSR4FFtvHamWKiA9Tv9R2bxhg</auth_user>
-      <auth_pass>KFAbM3IsX5UrrdcoMf9BM6Cq4gFKWtnZ</auth_pass>
-      <protocol>UDP</protocol>
-      <dev_mode>tun</dev_mode>
-      <server_addr>89.187.179.56,89.187.179.57,89.187.179.58,108.59.0.37,108.59.0.38,108.59.0.39</server_addr>
-      <server_port>1194,1194,1194,1194,1194,1194</server_port>
-      <proxy_authtype>none</proxy_authtype>
-      <description>ProtonVPN</description>
-      <mode>p2p_tls</mode>
-      <crypto>AES-256-CBC</crypto>
-      <digest>SHA512</digest>
-      <engine>none</engine>
-      <verbosity_level>1</verbosity_level>
-      <interface>wan</interface>
-      <vpnid>1</vpnid>
-      <custom_options>tun-mtu 1500;
-tun-mtu-extra 32;
-mssfix 1450;
-persist-key;
-persist-tun;
-reneg-sec 0;
-remote-cert-tls server;
-pull;</custom_options>
-      <caref>5ff820d2ce8d6</caref>
-      <certref/>
-      <tls>LS0tLS1CRUdJTiBPcGVuVlBOIFN0YXRpYyBrZXkgVjEtLS0tLQ0KNmFjZWYwM2Y2MjY3NWI0YjFiYmQwM2U1M2IxODc3MjcNCjQyM2NlYTc0MjI0MjEwNmNiMjkxNmE4YTRjODI5NzU2DQozZDIyYzdlNWNlZjQzMGIxMTAzYzZmNjZlYjFmYzViMw0KNzVhNjcyZjE1OGUyZTJlOTM2YzNmYWE0OGIwMzVhNmQNCmUxN2JlYWFjMjNiNWYwM2IxMGI4NjhkNTNkMDM1MjFkDQo4YmExMTUwNTlkYTc3N2E2MGNiZmQ3YjJjOWM1NzQ3Mg0KNzhhMTViOGY2ZTY4YTNlZjdmZDU4M2VjOWYzOThjOGINCmQ0NzM1ZGFiNDBjYmQxZTNjNjJhODIyZTk3NDg5MTg2DQpjMzBhMGI0OGM3YzM4ZWEzMmNlYjA1NmQzZmE1YTcxMA0KZTEwY2NjN2EwZGRiMzYzYjA4YzNkMjc3N2EzMzk1ZTENCjBjMGI2MDgwZjU2MzA5MTkyYWI1YWFjZDRiNDVmNTVkDQphNjFmYzc3YWYzOWJkODFhMTkyMThhNzk3NjJjMzM4Ng0KMmRmNTU3ODUwNzVmMzdkOGM3MWRjOGE0MjA5N2VlNDMNCjM0NDczOWEwZGQ0OGQwMzAyNWIwNDUwY2YxZmI1ZThjDQphZWI4OTNkOWE5NmQxZjE1NTE5YmIzYzRkY2I0MGVlMw0KMTY2NzJlYTE2YzAxMjY2NGY4YTlmMTEyNTU1MThkZWINCi0tLS0tRU5EIE9wZW5WUE4gU3RhdGljIGtleSBWMS0tLS0t</tls>
-    </openvpn-client>
     <openvpn-client>
       <auth_user>DURU7xrsSR4FFtvHamWKiA9Tv9R2bxhg</auth_user>
       <auth_pass>KFAbM3IsX5UrrdcoMf9BM6Cq4gFKWtnZ</auth_pass>
