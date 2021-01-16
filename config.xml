@@ -858,6 +858,7 @@
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <descr>Default allow LAN to any rule</descr>
+      <gateway>GW_WAN</gateway>
       <direction>in</direction>
       <quick>1</quick>
       <source>
@@ -867,8 +868,8 @@
         <any>1</any>
       </destination>
       <updated>
-        <username>root@192.168.0.6</username>
-        <time>1610629554.3245</time>
+        <username>root@192.168.0.7</username>
+        <time>1610811653.9131</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
     </rule>
@@ -1112,9 +1113,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <time>1610809847.0658</time>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <username>root@192.168.0.7</username>
+    <time>1610811653.9158</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -1130,8 +1131,8 @@
       <templates/>
     </captiveportal>
     <Interfaces>
-      <vxlans version="1.0.1"/>
-      <loopbacks version="1.0.0"/>
+      <vxlans/>
+      <loopbacks/>
     </Interfaces>
     <monit version="1.0.8">
       <general>
@@ -1417,7 +1418,7 @@
         <client_authentications/>
         <max_memory_in_queues/>
       </general>
-      <hiddenservice version="1.0.0"/>
+      <hiddenservice/>
     </tor>
     <IDS version="1.0.5">
       <rules/>
