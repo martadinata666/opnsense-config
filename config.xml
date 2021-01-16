@@ -858,6 +858,7 @@
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <descr>Default allow LAN to any rule</descr>
+      <gateway>OPT1_VPNV4</gateway>
       <direction>in</direction>
       <quick>1</quick>
       <source>
@@ -868,7 +869,7 @@
       </destination>
       <updated>
         <username>root@192.168.0.7</username>
-        <time>1610811939.6019</time>
+        <time>1610811981.8734</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
     </rule>
@@ -1113,7 +1114,7 @@
   </widgets>
   <revision>
     <username>root@192.168.0.7</username>
-    <time>1610811939.6042</time>
+    <time>1610811981.8756</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
