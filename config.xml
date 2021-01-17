@@ -858,6 +858,7 @@
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <descr>Default allow LAN to any rule</descr>
+      <gateway>GW_WAN</gateway>
       <direction>in</direction>
       <quick>1</quick>
       <source>
@@ -867,8 +868,8 @@
         <any>1</any>
       </destination>
       <updated>
-        <username>root@192.168.0.7</username>
-        <time>1610812311.2847</time>
+        <username>root@192.168.0.14</username>
+        <time>1610872053.1047</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
     </rule>
@@ -1113,8 +1114,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.14</username>
-    <time>1610871999.1737</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <time>1610872053.1086</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
