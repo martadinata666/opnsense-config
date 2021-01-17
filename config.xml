@@ -700,7 +700,6 @@
         <time>1610166388.7586</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
     <rule>
       <type>pass</type>
@@ -968,8 +967,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.7</username>
-    <time>1610903957.5438</time>
-    <description>/system_advanced_admin.php made changes</description>
+    <time>1610904029.8859</time>
+    <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
