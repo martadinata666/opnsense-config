@@ -1114,8 +1114,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.14</username>
-    <time>1610872053.1086</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1610872104.5853</time>
+    <description>/firewall_nat_out.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
