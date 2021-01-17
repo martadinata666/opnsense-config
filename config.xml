@@ -713,12 +713,12 @@
         <network>wan</network>
       </source>
       <destination>
-        <network>opt1</network>
+        <network>lan</network>
         <port>443</port>
       </destination>
       <updated>
-        <username>root@192.168.0.14</username>
-        <time>1610182300.6859</time>
+        <username>root@192.168.0.7</username>
+        <time>1610904057.4496</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -966,7 +966,7 @@
   </widgets>
   <revision>
     <username>root@192.168.0.7</username>
-    <time>1610904046.3489</time>
+    <time>1610904057.452</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
