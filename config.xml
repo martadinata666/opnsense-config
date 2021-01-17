@@ -975,8 +975,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.7</username>
-    <time>1610895333.3029</time>
-    <description>/vpn_openvpn_client.php made changes</description>
+    <time>1610895354.7761</time>
+    <description>/firewall_nat_out.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2343,34 +2343,6 @@
   <nat>
     <outbound>
       <mode>hybrid</mode>
-      <rule>
-        <source>
-          <network>lan</network>
-        </source>
-        <destination>
-          <any>1</any>
-        </destination>
-        <descr/>
-        <interface>opt1</interface>
-        <tag/>
-        <tagged/>
-        <poolopts/>
-        <poolopts_sourcehashkey/>
-        <ipprotocol>inet</ipprotocol>
-        <created>
-          <username>root@192.168.0.14</username>
-          <time>1610098942.0273</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </created>
-        <target>opt1ip</target>
-        <sourceport/>
-        <updated>
-          <username>root@192.168.0.6</username>
-          <time>1610521982.1629</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
-        <disabled>1</disabled>
-      </rule>
       <rule>
         <source>
           <network>lan</network>
