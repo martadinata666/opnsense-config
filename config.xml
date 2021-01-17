@@ -357,14 +357,6 @@
       <type>none</type>
       <virtual>1</virtual>
     </lo0>
-    <openvpn>
-      <internal_dynamic>1</internal_dynamic>
-      <enable>1</enable>
-      <if>openvpn</if>
-      <descr>OpenVPN</descr>
-      <type>group</type>
-      <virtual>1</virtual>
-    </openvpn>
     <opt1>
       <if>ovpnc1</if>
       <descr>OpenVPNUS</descr>
@@ -1088,8 +1080,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.14</username>
-    <time>1610872458.7459</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1610872540.7543</time>
+    <description>/vpn_openvpn_client.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2571,6 +2563,7 @@
       <verbosity_level>1</verbosity_level>
       <interface>wan</interface>
       <vpnid>2</vpnid>
+      <disable>1</disable>
       <custom_options>tun-mtu 1500;
 tun-mtu-extra 32;
 mssfix 1450;
