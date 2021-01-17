@@ -360,7 +360,6 @@
     <opt1>
       <if>ovpnc1</if>
       <descr>OpenVPNUS</descr>
-      <enable>1</enable>
       <spoofmac/>
       <blockpriv>1</blockpriv>
       <blockbogons>1</blockbogons>
@@ -1078,9 +1077,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>root@192.168.0.14</username>
-    <time>1610879658.2666</time>
-    <description>Unbound general configuration changed.</description>
+    <username>root@192.168.0.7</username>
+    <time>1610894208.6968</time>
+    <description>Interface OpenVPNUS(opt1) is now disabled.</description>
   </revision>
   <OPNsense>
     <Firewall>
