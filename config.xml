@@ -235,7 +235,7 @@
     <timezone>Asia/Jakarta</timezone>
     <timeservers>0.opnsense.pool.ntp.org 1.opnsense.pool.ntp.org 2.opnsense.pool.ntp.org 3.opnsense.pool.ntp.org</timeservers>
     <webgui>
-      <protocol>https</protocol>
+      <protocol>http</protocol>
       <ssl-certref>5ed1de0db8ea6</ssl-certref>
       <port/>
       <ssl-ciphers/>
@@ -975,8 +975,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.7</username>
-    <time>1610895394.4535</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <time>1610897160.6064</time>
+    <description>/system_advanced_admin.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
