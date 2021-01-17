@@ -321,9 +321,9 @@
       <usernameLength>5</usernameLength>
       <passwordLength>10</passwordLength>
     </authserver>
-    <enablenatreflectionhelper>yes</enablenatreflectionhelper>
     <use_swap_file>2048</use_swap_file>
     <disablereplyto>yes</disablereplyto>
+    <disablenatreflection>yes</disablenatreflection>
   </system>
   <interfaces>
     <wan>
@@ -1089,8 +1089,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.14</username>
-    <time>1610872369.1561</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1610872404.8375</time>
+    <description>/system_advanced_firewall.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
