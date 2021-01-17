@@ -975,7 +975,7 @@
   </widgets>
   <revision>
     <username>root@192.168.0.7</username>
-    <time>1610895378.0751</time>
+    <time>1610895392.7458</time>
     <description>/firewall_nat_out.php made changes</description>
   </revision>
   <OPNsense>
@@ -2342,7 +2342,7 @@
   </cert>
   <nat>
     <outbound>
-      <mode>hybrid</mode>
+      <mode>advanced</mode>
       <rule>
         <source>
           <network>lan</network>
