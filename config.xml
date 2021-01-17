@@ -1032,32 +1032,6 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <type>pass</type>
-      <interface>opt2</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <gateway>OPENVPNNL_VPNV4</gateway>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>opt2</network>
-      </source>
-      <destination>
-        <address>192.168.0.3</address>
-      </destination>
-      <updated>
-        <username>root@192.168.0.14</username>
-        <time>1610618411.0567</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.14</username>
-        <time>1610618010.1797</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
-    </rule>
   </filter>
   <rrd/>
   <load_balancer>
@@ -1115,8 +1089,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.14</username>
-    <time>1610872199.9017</time>
-    <description>/system_advanced_firewall.php made changes</description>
+    <time>1610872369.1561</time>
+    <description>/firewall_rules.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
