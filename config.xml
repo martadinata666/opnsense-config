@@ -671,7 +671,6 @@
     <enable>1</enable>
     <active_interface>lan</active_interface>
     <outgoing_interface>lan</outgoing_interface>
-    <forwarding>1</forwarding>
     <regdhcp>1</regdhcp>
   </unbound>
   <snmpd>
@@ -1079,9 +1078,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <time>1610878211.8748</time>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <username>root@192.168.0.14</username>
+    <time>1610879658.2666</time>
+    <description>Unbound general configuration changed.</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -1097,8 +1096,8 @@
       <templates/>
     </captiveportal>
     <Interfaces>
-      <vxlans version="1.0.1"/>
-      <loopbacks version="1.0.0"/>
+      <vxlans/>
+      <loopbacks/>
     </Interfaces>
     <monit version="1.0.8">
       <general>
@@ -1384,7 +1383,7 @@
         <client_authentications/>
         <max_memory_in_queues/>
       </general>
-      <hiddenservice version="1.0.0"/>
+      <hiddenservice/>
     </tor>
     <IDS version="1.0.5">
       <rules/>
