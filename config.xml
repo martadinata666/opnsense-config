@@ -687,12 +687,12 @@
         <network>wan</network>
       </source>
       <destination>
-        <network>opt1</network>
+        <network>lan</network>
         <port>80</port>
       </destination>
       <updated>
-        <username>root@192.168.0.14</username>
-        <time>1610182281.5942</time>
+        <username>root@192.168.0.7</username>
+        <time>1610904046.345</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -966,8 +966,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.7</username>
-    <time>1610904031.1414</time>
-    <description>/firewall_rules.php made changes</description>
+    <time>1610904046.3489</time>
+    <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
