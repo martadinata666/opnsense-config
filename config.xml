@@ -365,6 +365,14 @@
       <blockpriv>1</blockpriv>
       <blockbogons>1</blockbogons>
     </opt2>
+    <openvpn>
+      <internal_dynamic>1</internal_dynamic>
+      <enable>1</enable>
+      <if>openvpn</if>
+      <descr>OpenVPN</descr>
+      <type>group</type>
+      <virtual>1</virtual>
+    </openvpn>
   </interfaces>
   <dhcpd>
     <lan>
@@ -967,8 +975,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.7</username>
-    <time>1610894231.124</time>
-    <description>/interfaces_assign.php made changes</description>
+    <time>1610895333.3029</time>
+    <description>/vpn_openvpn_client.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2450,7 +2458,6 @@
       <verbosity_level>1</verbosity_level>
       <interface>wan</interface>
       <vpnid>2</vpnid>
-      <disable>1</disable>
       <custom_options>tun-mtu 1500;
 tun-mtu-extra 32;
 mssfix 1450;
