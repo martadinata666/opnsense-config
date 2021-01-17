@@ -975,8 +975,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.7</username>
-    <time>1610895362.9413</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <time>1610895372.0767</time>
+    <description>Firewall: NAT: Outbound, toggle NAT rule</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2369,7 +2369,6 @@
           <time>1610595474.2429</time>
           <description>/firewall_nat_out_edit.php made changes</description>
         </created>
-        <disabled>1</disabled>
       </rule>
     </outbound>
     <rule/>
