@@ -357,13 +357,6 @@
       <type>none</type>
       <virtual>1</virtual>
     </lo0>
-    <opt1>
-      <if>ovpnc1</if>
-      <descr>OpenVPNUS</descr>
-      <spoofmac/>
-      <blockpriv>1</blockpriv>
-      <blockbogons>1</blockbogons>
-    </opt1>
     <opt2>
       <if>ovpnc2</if>
       <descr>OpenVPNNL</descr>
@@ -917,110 +910,6 @@
       </created>
       <disabled>1</disabled>
     </rule>
-    <rule>
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>wan</network>
-      </source>
-      <destination>
-        <network>opt1</network>
-        <port>443</port>
-      </destination>
-      <updated>
-        <username>root@192.168.0.14</username>
-        <time>1610181840.8622</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.14</username>
-        <time>1610181840.8622</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>wan</network>
-      </source>
-      <destination>
-        <network>opt1</network>
-        <port>80</port>
-      </destination>
-      <updated>
-        <username>root@192.168.0.14</username>
-        <time>1610181801.094</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.14</username>
-        <time>1610181801.094</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>opt1</network>
-      </source>
-      <destination>
-        <network>lan</network>
-        <port>80</port>
-      </destination>
-      <updated>
-        <username>root@192.168.0.14</username>
-        <time>1610166580.8076</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.14</username>
-        <time>1610166580.8076</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <network>opt1</network>
-      </source>
-      <destination>
-        <network>lan</network>
-        <port>443</port>
-      </destination>
-      <updated>
-        <username>root@192.168.0.14</username>
-        <time>1610166602.8049</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.14</username>
-        <time>1610166602.8049</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd/>
   <load_balancer>
@@ -1078,8 +967,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.7</username>
-    <time>1610894208.6968</time>
-    <description>Interface OpenVPNUS(opt1) is now disabled.</description>
+    <time>1610894231.124</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
