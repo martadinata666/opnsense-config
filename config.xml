@@ -966,8 +966,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.7</username>
-    <time>1611165105.5605</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <time>1611165202.9989</time>
+    <description>/api/wol/wol/addHost/ made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2470,5 +2470,11 @@ pull;</custom_options>
       <disabled>0</disabled>
     </route>
   </staticroutes>
-  <wol/>
+  <wol version="0.0.0">
+    <wolentry uuid="784fcbf5-9101-4526-a7d6-6a0f22055d85">
+      <interface>lan</interface>
+      <mac>70:85:c2:85:18:19</mac>
+      <descr>Windows10</descr>
+    </wolentry>
+  </wol>
 </opnsense>
