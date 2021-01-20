@@ -291,7 +291,7 @@
     <dnsserver>1.1.1.1</dnsserver>
     <language>en_US</language>
     <firmware>
-      <plugins>os-cache,os-dmidecode,os-intrusion-detection-content-et-pro,os-theme-rebellion,os-tor,os-upnp,os-sunnyvalley,os-sensei,os-dnscrypt-proxy,os-git-backup</plugins>
+      <plugins>os-cache,os-dmidecode,os-intrusion-detection-content-et-pro,os-theme-rebellion,os-tor,os-upnp,os-sunnyvalley,os-sensei,os-dnscrypt-proxy,os-git-backup,os-wol</plugins>
       <flavour>libressl</flavour>
     </firmware>
     <serialspeed>115200</serialspeed>
@@ -965,9 +965,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <time>1611030561.5082</time>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <username>root@192.168.0.7</username>
+    <time>1611164921.067</time>
+    <description>/api/core/firmware/install/os-wol made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
