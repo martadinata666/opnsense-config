@@ -959,15 +959,15 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <widgets>
-    <sequence>system_information-container:00000000-col1:show,sensei-container:00000001-col1:show,services_status-container:00000002-col2:show,log-container:00000003-col2:show,interface_statistics-container:00000004-col3:show,traffic_graphs-container:00000005-col4:show,interface_list-container:00000006-col6:show</sequence>
+    <sequence>system_information-container:00000000-col1:show,sensei-container:00000001-col1:show,services_status-container:00000002-col2:show,log-container:00000003-col2:show,wake_on_lan-container:00000004-col2:show,interface_statistics-container:00000005-col3:show,traffic_graphs-container:00000006-col4:show,interface_list-container:00000007-col6:show</sequence>
     <column_count>3</column_count>
     <systemlogfiltercount>5</systemlogfiltercount>
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <time>1611164983.3906</time>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <username>root@192.168.0.7</username>
+    <time>1611165018.3996</time>
+    <description>Widget configuration has been changed</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -983,8 +983,8 @@
       <templates/>
     </captiveportal>
     <Interfaces>
-      <vxlans version="1.0.1"/>
-      <loopbacks version="1.0.0"/>
+      <vxlans/>
+      <loopbacks/>
     </Interfaces>
     <monit version="1.0.8">
       <general>
@@ -1270,7 +1270,7 @@
         <client_authentications/>
         <max_memory_in_queues/>
       </general>
-      <hiddenservice version="1.0.0"/>
+      <hiddenservice/>
     </tor>
     <IDS version="1.0.5">
       <rules/>
@@ -2470,5 +2470,5 @@ pull;</custom_options>
       <disabled>0</disabled>
     </route>
   </staticroutes>
-  <wol version="1.0.0"/>
+  <wol/>
 </opnsense>
