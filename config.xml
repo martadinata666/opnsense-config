@@ -965,9 +965,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>root@192.168.0.7</username>
-    <time>1611164921.067</time>
-    <description>/api/core/firmware/install/os-wol made changes</description>
+    <username>(system)</username>
+    <time>1611164983.3906</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2470,4 +2470,5 @@ pull;</custom_options>
       <disabled>0</disabled>
     </route>
   </staticroutes>
+  <wol version="1.0.0"/>
 </opnsense>
