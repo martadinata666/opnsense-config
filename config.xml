@@ -965,9 +965,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>root@192.168.0.7</username>
-    <time>1611165815.2099</time>
-    <description>Widget configuration has been changed</description>
+    <username>(system)</username>
+    <time>1611644661.464</time>
+    <description>/usr/local/opnsense/mvc/app/models/OPNsense/Sensei/CLI.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2253,19 +2253,6 @@
           <command>ids update</command>
           <parameters/>
           <description>ids rule updates</description>
-        </job>
-        <job uuid="74978603-e47d-4561-bf59-eb77b6f0dc9f">
-          <origin>Sensei</origin>
-          <enabled>1</enabled>
-          <minutes>*</minutes>
-          <hours>*</hours>
-          <days>*</days>
-          <months>*</months>
-          <weekdays>*</weekdays>
-          <who>root</who>
-          <command>sensei periodicals</command>
-          <parameters>&gt; /dev/null 2&gt;&amp;1</parameters>
-          <description>Sensei periodicals</description>
         </job>
       </jobs>
     </cron>
