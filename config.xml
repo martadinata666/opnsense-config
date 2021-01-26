@@ -966,7 +966,7 @@
   </widgets>
   <revision>
     <username>(system)</username>
-    <time>1611644668.2018</time>
+    <time>1611644774.5898</time>
     <description>/usr/local/opnsense/mvc/app/models/OPNsense/Sensei/CLI.php made changes</description>
   </revision>
   <OPNsense>
@@ -2091,23 +2091,6 @@
         <serverlist/>
       </general>
     </dnscryptproxy>
-    <cron version="1.0.2">
-      <jobs>
-        <job uuid="99e4aff1-9a1a-47d8-8099-07bd6f50f104">
-          <origin>IDS</origin>
-          <enabled>0</enabled>
-          <minutes>0</minutes>
-          <hours>0</hours>
-          <days>*</days>
-          <months>*</months>
-          <weekdays>*</weekdays>
-          <who>root</who>
-          <command>ids update</command>
-          <parameters/>
-          <description>ids rule updates</description>
-        </job>
-      </jobs>
-    </cron>
     <Sensei version="0.0.0">
       <general>
         <installTimestamp>1611644667</installTimestamp>
@@ -2263,6 +2246,36 @@
         <webcategoriesType/>
       </rules>
     </Sensei>
+    <cron version="1.0.2">
+      <jobs>
+        <job uuid="99e4aff1-9a1a-47d8-8099-07bd6f50f104">
+          <origin>IDS</origin>
+          <enabled>0</enabled>
+          <minutes>0</minutes>
+          <hours>0</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>ids update</command>
+          <parameters/>
+          <description>ids rule updates</description>
+        </job>
+        <job uuid="866187c2-24ad-4437-b4da-7cb236eebadc">
+          <origin>Sensei</origin>
+          <enabled>1</enabled>
+          <minutes>*</minutes>
+          <hours>*</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>sensei periodicals</command>
+          <parameters>&gt; /dev/null 2&gt;&amp;1</parameters>
+          <description>Sensei periodicals</description>
+        </job>
+      </jobs>
+    </cron>
   </OPNsense>
   <ca>
     <refid>5ff820d2ce8d6</refid>
