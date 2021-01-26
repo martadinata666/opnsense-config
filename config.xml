@@ -966,8 +966,8 @@
   </widgets>
   <revision>
     <username>(system)</username>
-    <time>1611644774.5898</time>
-    <description>/usr/local/opnsense/mvc/app/models/OPNsense/Sensei/CLI.php made changes</description>
+    <time>1611657360.2279</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -983,8 +983,8 @@
       <templates/>
     </captiveportal>
     <Interfaces>
-      <vxlans/>
-      <loopbacks/>
+      <vxlans version="1.0.1"/>
+      <loopbacks version="1.0.0"/>
     </Interfaces>
     <monit version="1.0.8">
       <general>
@@ -1270,7 +1270,7 @@
         <client_authentications/>
         <max_memory_in_queues/>
       </general>
-      <hiddenservice/>
+      <hiddenservice version="1.0.0"/>
     </tor>
     <IDS version="1.0.5">
       <rules/>
@@ -2477,7 +2477,7 @@ pull;</custom_options>
       <disabled>0</disabled>
     </route>
   </staticroutes>
-  <wol version="0.0.0">
+  <wol version="1.0.0">
     <wolentry uuid="784fcbf5-9101-4526-a7d6-6a0f22055d85">
       <interface>lan</interface>
       <mac>70:85:c2:85:18:19</mac>
