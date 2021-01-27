@@ -281,7 +281,7 @@
       </git>
       <nextcloud version="1.0.0">
         <enabled>1</enabled>
-        <url>http://192.168.0.3:8080</url>
+        <url>https://192.168.0.3:8080</url>
         <user>dedyms</user>
         <password>tebaklah</password>
         <password_encryption/>
@@ -965,9 +965,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <time>1611692290.3716</time>
-    <description>/usr/local/opnsense/mvc/app/models/OPNsense/Sensei/CLI.php made changes</description>
+    <username>root@192.168.0.7</username>
+    <time>1611756267.547</time>
+    <description>/diag_backup.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
