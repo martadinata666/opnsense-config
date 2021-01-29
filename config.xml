@@ -965,8 +965,8 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>root@192.168.0.14</username>
-    <time>1611892205.7343</time>
+    <username>root@192.168.0.39</username>
+    <time>1611898722.9734</time>
     <description>/api/sensei/settings/ made changes</description>
   </revision>
   <OPNsense>
@@ -2100,7 +2100,7 @@
         <remoteAddress>false</remoteAddress>
       </anonymize>
       <onboot>
-        <eastpect>NO</eastpect>
+        <eastpect>YES</eastpect>
         <elasticsearch>NO</elasticsearch>
         <mongod>NO</mongod>
         <senpai>YES</senpai>
