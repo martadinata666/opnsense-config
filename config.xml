@@ -910,7 +910,9 @@
       <disabled>1</disabled>
     </rule>
   </filter>
-  <rrd/>
+  <rrd>
+    <enable>1</enable>
+  </rrd>
   <load_balancer>
     <monitor_type>
       <name>ICMP</name>
@@ -965,9 +967,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>root@192.168.0.39</username>
-    <time>1611898722.9983</time>
-    <description>/api/sensei/settings/ made changes</description>
+    <username>root@192.168.0.14</username>
+    <time>1611908647.3939</time>
+    <description>/reporting_settings.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -986,8 +988,8 @@
       <templates/>
     </captiveportal>
     <Interfaces>
-      <vxlans version="1.0.1"/>
-      <loopbacks version="1.0.0"/>
+      <vxlans/>
+      <loopbacks/>
     </Interfaces>
     <monit version="1.0.8">
       <general>
@@ -1273,7 +1275,7 @@
         <client_authentications/>
         <max_memory_in_queues/>
       </general>
-      <hiddenservice version="1.0.0"/>
+      <hiddenservice/>
     </tor>
     <postfix>
       <address version="1.0.0">
