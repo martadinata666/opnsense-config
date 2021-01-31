@@ -366,6 +366,14 @@
       <blockpriv>1</blockpriv>
       <blockbogons>1</blockbogons>
     </opt2>
+    <openvpn>
+      <internal_dynamic>1</internal_dynamic>
+      <enable>1</enable>
+      <if>openvpn</if>
+      <descr>OpenVPN</descr>
+      <type>group</type>
+      <virtual>1</virtual>
+    </openvpn>
   </interfaces>
   <dhcpd>
     <lan>
@@ -968,8 +976,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.14</username>
-    <time>1611908647.3939</time>
-    <description>/reporting_settings.php made changes</description>
+    <time>1612096775.7169</time>
+    <description>/vpn_openvpn_client.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2354,7 +2362,10 @@
       <dev_mode>tun</dev_mode>
       <server_addr>109.201.133.22,109.201.133.24,109.201.133.26,217.23.3.91,217.23.3.92,217.23.3.96</server_addr>
       <server_port>1194,1194,1194,1194,1194,1194</server_port>
+      <remote_random>yes</remote_random>
       <proxy_authtype>none</proxy_authtype>
+      <proxy_user>root</proxy_user>
+      <proxy_passwd>nr6s3p</proxy_passwd>
       <description>ProtonVPN</description>
       <mode>p2p_tls</mode>
       <crypto>AES-256-CBC</crypto>
@@ -2363,7 +2374,6 @@
       <verbosity_level>1</verbosity_level>
       <interface>wan</interface>
       <vpnid>2</vpnid>
-      <disable>1</disable>
       <custom_options>tun-mtu 1500;
 tun-mtu-extra 32;
 mssfix 1450;
