@@ -1002,8 +1002,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.39</username>
-    <time>1612142133.0102</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <time>1612142139.4183</time>
+    <description>Firewall: NAT: Outbound, toggle NAT rule</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2331,7 +2331,6 @@
         </created>
         <target>wanip</target>
         <sourceport/>
-        <disabled>1</disabled>
         <updated>
           <username>root@192.168.0.39</username>
           <time>1612142130.4397</time>
