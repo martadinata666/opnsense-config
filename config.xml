@@ -1002,7 +1002,7 @@
   </widgets>
   <revision>
     <username>root@192.168.0.39</username>
-    <time>1612142163.5366</time>
+    <time>1612142176.2417</time>
     <description>/firewall_nat_out.php made changes</description>
   </revision>
   <OPNsense>
@@ -2287,33 +2287,6 @@
           <network>lan</network>
         </source>
         <destination>
-          <any>1</any>
-        </destination>
-        <descr/>
-        <interface>opt2</interface>
-        <tag/>
-        <tagged/>
-        <poolopts/>
-        <poolopts_sourcehashkey/>
-        <ipprotocol>inet</ipprotocol>
-        <target>opt2ip</target>
-        <sourceport/>
-        <updated>
-          <username>root@192.168.0.14</username>
-          <time>1610595474.2428</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
-        <created>
-          <username>root@192.168.0.14</username>
-          <time>1610595474.2429</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </created>
-      </rule>
-      <rule>
-        <source>
-          <network>lan</network>
-        </source>
-        <destination>
           <network>wanip</network>
         </destination>
         <descr/>
@@ -2336,6 +2309,33 @@
           <time>1612142130.4397</time>
           <description>/firewall_nat_out_edit.php made changes</description>
         </updated>
+      </rule>
+      <rule>
+        <source>
+          <network>lan</network>
+        </source>
+        <destination>
+          <any>1</any>
+        </destination>
+        <descr/>
+        <interface>opt2</interface>
+        <tag/>
+        <tagged/>
+        <poolopts/>
+        <poolopts_sourcehashkey/>
+        <ipprotocol>inet</ipprotocol>
+        <target>opt2ip</target>
+        <sourceport/>
+        <updated>
+          <username>root@192.168.0.14</username>
+          <time>1610595474.2428</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </updated>
+        <created>
+          <username>root@192.168.0.14</username>
+          <time>1610595474.2429</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </created>
       </rule>
       <rule>
         <source>
