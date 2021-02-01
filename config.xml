@@ -975,9 +975,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>root@192.168.0.14</username>
-    <time>1612096806.6911</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <username>root@192.168.0.39</username>
+    <time>1612141624.0255</time>
+    <description>/system_gateways_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2218,8 +2218,7 @@
       <ipprotocol>inet</ipprotocol>
       <interval>1</interval>
       <descr>BYU</descr>
-      <monitor_disable>1</monitor_disable>
-      <monitor>1.1.1.3</monitor>
+      <monitor>192.168.1.1</monitor>
       <defaultgw>1</defaultgw>
     </gateway_item>
     <gateway_item>
