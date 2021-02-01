@@ -968,7 +968,7 @@
   </widgets>
   <revision>
     <username>root@192.168.0.14</username>
-    <time>1612165645.5004</time>
+    <time>1612165647.4272</time>
     <description>Firewall: NAT: Outbound, toggle NAT rule</description>
   </revision>
   <OPNsense>
@@ -2293,7 +2293,6 @@
         <ipprotocol>inet</ipprotocol>
         <target>wanip</target>
         <sourceport/>
-        <disabled>1</disabled>
         <updated>
           <username>root@192.168.0.39</username>
           <time>1612142103.6014</time>
