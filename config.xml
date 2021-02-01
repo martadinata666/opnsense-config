@@ -969,15 +969,15 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <widgets>
-    <sequence>system_information-container:00000000-col1:show,sensei-container:00000001-col1:show,services_status-container:00000002-col2:show,log-container:00000003-col2:show,wake_on_lan-container:00000004-col2:show,interface_statistics-container:00000005-col3:show,interface_list-container:00000006-col3:show,traffic_graphs-container:00000007-col4:show</sequence>
+    <sequence>system_information-container:00000000-col1:show,sensei-container:00000001-col1:show,gateways-container:00000002-col1:show,services_status-container:00000003-col2:show,log-container:00000004-col2:show,wake_on_lan-container:00000005-col2:show,interface_statistics-container:00000006-col3:show,interface_list-container:00000007-col3:show,traffic_graphs-container:00000008-col4:show</sequence>
     <column_count>2</column_count>
     <systemlogfiltercount>5</systemlogfiltercount>
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
     <username>root@192.168.0.39</username>
-    <time>1612141624.0255</time>
-    <description>/system_gateways_edit.php made changes</description>
+    <time>1612141673.2129</time>
+    <description>Widget configuration has been changed</description>
   </revision>
   <OPNsense>
     <Firewall>
