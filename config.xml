@@ -968,8 +968,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.14</username>
-    <time>1612165649.685</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <time>1612165695.2287</time>
+    <description>/firewall_nat_out_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2281,7 +2281,7 @@
           <network>lan</network>
         </source>
         <destination>
-          <network>wanip</network>
+          <any>1</any>
         </destination>
         <descr/>
         <category/>
@@ -2291,18 +2291,18 @@
         <poolopts/>
         <poolopts_sourcehashkey/>
         <ipprotocol>inet</ipprotocol>
-        <target>wanip</target>
-        <sourceport/>
-        <updated>
-          <username>root@192.168.0.39</username>
-          <time>1612142103.6014</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
         <created>
           <username>root@192.168.0.39</username>
           <time>1612142103.6014</time>
           <description>/firewall_nat_out_edit.php made changes</description>
         </created>
+        <target>wanip</target>
+        <sourceport/>
+        <updated>
+          <username>root@192.168.0.14</username>
+          <time>1612165695.2169</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </updated>
       </rule>
     </outbound>
     <rule/>
