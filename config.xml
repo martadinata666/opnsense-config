@@ -976,9 +976,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>root@192.168.0.39</username>
-    <time>1612277877.7468</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>root@192.168.0.6</username>
+    <time>1612285309.9148</time>
+    <description>/api/sensei/settings/ made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2104,7 +2104,7 @@
       <updater>
         <enabled>true</enabled>
         <autocheck>true</autocheck>
-        <lastupdate>1605723084</lastupdate>
+        <lastupdate>1611644663</lastupdate>
       </updater>
       <anonymize>
         <localAddress>false</localAddress>
