@@ -968,8 +968,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.14</username>
-    <time>1612267938.4772</time>
-    <description>/firewall_nat_out_edit.php made changes</description>
+    <time>1612267941.1908</time>
+    <description>/firewall_nat_out.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
