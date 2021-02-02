@@ -623,7 +623,7 @@
         <mac>30:9c:23:d8:74:0d</mac>
         <cid>H130I-PRO</cid>
         <ipaddr>192.168.0.51</ipaddr>
-        <hostname>homelab</hostname>
+        <hostname>H310i-Pro</hostname>
         <descr>Ubuntu Server</descr>
         <winsserver/>
         <dnsserver/>
@@ -967,7 +967,7 @@
   </widgets>
   <revision>
     <username>root@192.168.0.39</username>
-    <time>1612272356.5258</time>
+    <time>1612272379.153</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
