@@ -977,7 +977,7 @@
   </widgets>
   <revision>
     <username>root@192.168.0.6</username>
-    <time>1612285371.6188</time>
+    <time>1612285373.9345</time>
     <description>/api/sensei/settings/ made changes</description>
   </revision>
   <OPNsense>
@@ -2111,7 +2111,7 @@
         <remoteAddress>false</remoteAddress>
       </anonymize>
       <onboot>
-        <eastpect>NO</eastpect>
+        <eastpect>YES</eastpect>
         <elasticsearch>NO</elasticsearch>
         <mongod>NO</mongod>
         <senpai>NO</senpai>
