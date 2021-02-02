@@ -968,8 +968,8 @@
   </widgets>
   <revision>
     <username>root@192.168.0.14</username>
-    <time>1612270221.5602</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <time>1612270256.6461</time>
+    <description>/firewall_nat_out_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2253,11 +2253,11 @@
           <network>lan</network>
         </source>
         <destination>
-          <network>lan</network>
+          <any>1</any>
         </destination>
         <descr/>
         <category/>
-        <interface>lan</interface>
+        <interface>wan</interface>
         <tag/>
         <tagged/>
         <poolopts/>
@@ -2272,10 +2272,9 @@
         <sourceport/>
         <updated>
           <username>root@192.168.0.14</username>
-          <time>1612267938.4675</time>
+          <time>1612270256.6298</time>
           <description>/firewall_nat_out_edit.php made changes</description>
         </updated>
-        <disabled>1</disabled>
       </rule>
       <rule>
         <source>
