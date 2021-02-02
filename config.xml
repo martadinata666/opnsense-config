@@ -386,17 +386,6 @@
       <dnsserver>192.168.0.28</dnsserver>
       <ntpserver/>
       <staticmap>
-        <mac>30:9c:23:d8:74:0d</mac>
-        <cid>H130I-PRO</cid>
-        <ipaddr>192.168.0.3</ipaddr>
-        <hostname>homelab</hostname>
-        <descr>Ubuntu Server</descr>
-        <arp_table_static_entry>1</arp_table_static_entry>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
         <mac>f4:b5:20:14:e2:bc</mac>
         <cid>A10N-8800E</cid>
         <ipaddr>192.168.0.4</ipaddr>
@@ -626,6 +615,16 @@
         <ipaddr>192.168.0.41</ipaddr>
         <hostname>bardiplug</hostname>
         <arp_table_static_entry>1</arp_table_static_entry>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
+        <mac>30:9c:23:d8:74:0d</mac>
+        <cid>H130I-PRO</cid>
+        <ipaddr>192.168.0.51</ipaddr>
+        <hostname>homelab</hostname>
+        <descr>Ubuntu Server</descr>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -967,9 +966,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>root@192.168.0.14</username>
-    <time>1612270278.6599</time>
-    <description>/firewall_nat_out.php made changes</description>
+    <username>root@192.168.0.39</username>
+    <time>1612272356.5258</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
