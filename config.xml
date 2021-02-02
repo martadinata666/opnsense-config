@@ -386,6 +386,16 @@
       <dnsserver>192.168.0.28</dnsserver>
       <ntpserver/>
       <staticmap>
+        <mac>70:85:c2:d5:db:58</mac>
+        <cid>h370m-itx</cid>
+        <ipaddr>192.168.0.3</ipaddr>
+        <hostname>homelab</hostname>
+        <arp_table_static_entry>1</arp_table_static_entry>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>f4:b5:20:14:e2:bc</mac>
         <cid>A10N-8800E</cid>
         <ipaddr>192.168.0.4</ipaddr>
@@ -966,9 +976,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <time>1612272686.6942</time>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <username>root@192.168.0.39</username>
+    <time>1612277877.7468</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -987,8 +997,8 @@
       <templates/>
     </captiveportal>
     <Interfaces>
-      <vxlans version="1.0.1"/>
-      <loopbacks version="1.0.0"/>
+      <vxlans/>
+      <loopbacks/>
     </Interfaces>
     <monit version="1.0.8">
       <general>
@@ -1274,7 +1284,7 @@
         <client_authentications/>
         <max_memory_in_queues/>
       </general>
-      <hiddenservice version="1.0.0"/>
+      <hiddenservice/>
     </tor>
     <postfix>
       <address version="1.0.0">
