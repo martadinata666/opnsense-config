@@ -966,9 +966,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>root@192.168.0.39</username>
-    <time>1612272379.153</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <username>(system)</username>
+    <time>1612272686.6942</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -987,8 +987,8 @@
       <templates/>
     </captiveportal>
     <Interfaces>
-      <vxlans/>
-      <loopbacks/>
+      <vxlans version="1.0.1"/>
+      <loopbacks version="1.0.0"/>
     </Interfaces>
     <monit version="1.0.8">
       <general>
@@ -1274,7 +1274,7 @@
         <client_authentications/>
         <max_memory_in_queues/>
       </general>
-      <hiddenservice/>
+      <hiddenservice version="1.0.0"/>
     </tor>
     <postfix>
       <address version="1.0.0">
