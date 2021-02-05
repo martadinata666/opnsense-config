@@ -977,7 +977,7 @@
   </widgets>
   <revision>
     <username>root@192.168.0.14</username>
-    <time>1612500563.4527</time>
+    <time>1612500996.5024</time>
     <description>/api/dnscryptproxy/general/set made changes</description>
   </revision>
   <OPNsense>
@@ -1550,7 +1550,7 @@
         <cache_max_ttl>86400</cache_max_ttl>
         <cache_neg_min_ttl>60</cache_neg_min_ttl>
         <cache_neg_max_ttl>600</cache_neg_max_ttl>
-        <serverlist/>
+        <serverlist>dnsforfamily,jp.tiar.app,dnscrypt.one </serverlist>
       </general>
     </dnscryptproxy>
     <IPsec version="1.0.0">
