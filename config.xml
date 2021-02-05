@@ -976,9 +976,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>root@192.168.0.6</username>
-    <time>1612285373.9553</time>
-    <description>/api/sensei/settings/ made changes</description>
+    <username>root@192.168.0.14</username>
+    <time>1612500563.4527</time>
+    <description>/api/dnscryptproxy/general/set made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
