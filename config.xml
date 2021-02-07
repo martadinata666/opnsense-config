@@ -399,8 +399,9 @@
         <mac>f4:b5:20:14:e2:bc</mac>
         <cid>A10N-8800E</cid>
         <ipaddr>192.168.0.4</ipaddr>
-        <hostname>HomeWorker0</hostname>
+        <hostname>homeworker0</hostname>
         <descr>A10N-8800E</descr>
+        <arp_table_static_entry>1</arp_table_static_entry>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -975,8 +976,8 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>root@192.168.0.14</username>
-    <time>1612701667.4906</time>
+    <username>root@192.168.0.39</username>
+    <time>1612713948.2981</time>
     <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
