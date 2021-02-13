@@ -977,7 +977,7 @@
   </widgets>
   <revision>
     <username>(system)</username>
-    <time>1613221012.1344</time>
+    <time>1613221018.293</time>
     <description>/usr/local/opnsense/mvc/app/models/OPNsense/Sensei/CLI.php made changes</description>
   </revision>
   <OPNsense>
@@ -2008,15 +2008,32 @@
         <LogPayload>0</LogPayload>
       </general>
     </IDS>
+    <cron version="1.0.2">
+      <jobs>
+        <job uuid="99e4aff1-9a1a-47d8-8099-07bd6f50f104">
+          <origin>IDS</origin>
+          <enabled>0</enabled>
+          <minutes>0</minutes>
+          <hours>0</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>ids update</command>
+          <parameters/>
+          <description>ids rule updates</description>
+        </job>
+      </jobs>
+    </cron>
     <Sensei version="0.0.0">
       <general>
-        <installTimestamp>1611644667</installTimestamp>
-        <heartbeatTimer>34 * * * *</heartbeatTimer>
+        <installTimestamp>1613221018</installTimestamp>
+        <heartbeatTimer>5 * * * *</heartbeatTimer>
         <coreFileEnable>false</coreFileEnable>
         <flavor>small2</flavor>
         <healthCheck>true</healthCheck>
         <healthShare>true</healthShare>
-        <healthTimer>8,18,28,38,48,58 * * * *</healthTimer>
+        <healthTimer>6,16,26,36,46,56 * * * *</healthTimer>
         <heartbeatMonit>true</heartbeatMonit>
         <hwbypass>false</hwbypass>
         <SenseiTempSize>0</SenseiTempSize>
@@ -2163,23 +2180,6 @@
         <webcategoriesType/>
       </rules>
     </Sensei>
-    <cron version="1.0.2">
-      <jobs>
-        <job uuid="99e4aff1-9a1a-47d8-8099-07bd6f50f104">
-          <origin>IDS</origin>
-          <enabled>0</enabled>
-          <minutes>0</minutes>
-          <hours>0</hours>
-          <days>*</days>
-          <months>*</months>
-          <weekdays>*</weekdays>
-          <who>root</who>
-          <command>ids update</command>
-          <parameters/>
-          <description>ids rule updates</description>
-        </job>
-      </jobs>
-    </cron>
   </OPNsense>
   <ca>
     <refid>5ff820d2ce8d6</refid>
