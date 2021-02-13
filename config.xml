@@ -977,8 +977,8 @@
   </widgets>
   <revision>
     <username>(system)</username>
-    <time>1613221036.506</time>
-    <description>/usr/local/opnsense/mvc/app/models/OPNsense/Sensei/CLI.php made changes</description>
+    <time>1613221047.8693</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -997,181 +997,9 @@
       <templates/>
     </captiveportal>
     <Interfaces>
-      <vxlans/>
-      <loopbacks/>
+      <vxlans version="1.0.1"/>
+      <loopbacks version="1.0.0"/>
     </Interfaces>
-    <monit version="1.0.8">
-      <general>
-        <enabled>0</enabled>
-        <interval>120</interval>
-        <startdelay>120</startdelay>
-        <mailserver>127.0.0.1</mailserver>
-        <port>25</port>
-        <username/>
-        <password/>
-        <ssl>0</ssl>
-        <sslversion>auto</sslversion>
-        <sslverify>1</sslverify>
-        <logfile>syslog facility log_daemon</logfile>
-        <statefile/>
-        <eventqueuePath/>
-        <eventqueueSlots/>
-        <httpdEnabled>0</httpdEnabled>
-        <httpdUsername>root</httpdUsername>
-        <httpdPassword>kWbvqLYEtvFzVa71rblQN</httpdPassword>
-        <httpdPort>2812</httpdPort>
-        <httpdAllow/>
-        <mmonitUrl/>
-        <mmonitTimeout>5</mmonitTimeout>
-        <mmonitRegisterCredentials>1</mmonitRegisterCredentials>
-      </general>
-      <alert uuid="f11b11e7-9c7c-4852-8aaf-d9ad5179b357">
-        <enabled>0</enabled>
-        <recipient>root@localhost.local</recipient>
-        <noton>0</noton>
-        <events/>
-        <format/>
-        <reminder>10</reminder>
-        <description/>
-      </alert>
-      <service uuid="7de81048-6369-46f9-95c5-ddb9a6911500">
-        <enabled>1</enabled>
-        <name>$HOST</name>
-        <type>system</type>
-        <pidfile/>
-        <match/>
-        <path/>
-        <timeout>300</timeout>
-        <address/>
-        <interface/>
-        <start/>
-        <stop/>
-        <tests>7827293e-12ca-47a9-93fe-e1193c9c9722,63e19253-d2f3-455f-8ba4-7c6372b75cbb,fc282837-9702-4e03-b99f-45affd3b159c,98b5198a-b6c5-4c19-9e2c-bd839301c8d4</tests>
-        <depends/>
-      </service>
-      <service uuid="fabbb86b-4762-47d7-95be-d3e86aed5bc4">
-        <enabled>1</enabled>
-        <name>RootFs</name>
-        <type>filesystem</type>
-        <pidfile/>
-        <match/>
-        <path>/</path>
-        <timeout>300</timeout>
-        <address/>
-        <interface/>
-        <start/>
-        <stop/>
-        <tests>865c5b6a-dc34-4346-8f62-db03fe99b952</tests>
-        <depends/>
-      </service>
-      <service uuid="938e0fda-eddf-4a86-9c9c-270abb8cd2bb">
-        <enabled>0</enabled>
-        <name>carp_status_change</name>
-        <type>custom</type>
-        <pidfile/>
-        <match/>
-        <path>/usr/local/opnsense/scripts/OPNsense/Monit/carp_status</path>
-        <timeout>300</timeout>
-        <address/>
-        <interface/>
-        <start/>
-        <stop/>
-        <tests>c983e67b-22c3-40b5-a4ab-21a67a5b0c16</tests>
-        <depends/>
-      </service>
-      <service uuid="0e840035-7aa6-42fc-87b5-f9a0ffcc4ee9">
-        <enabled>0</enabled>
-        <name>gateway_alert</name>
-        <type>custom</type>
-        <pidfile/>
-        <match/>
-        <path>/usr/local/opnsense/scripts/OPNsense/Monit/gateway_alert</path>
-        <timeout>300</timeout>
-        <address/>
-        <interface/>
-        <start/>
-        <stop/>
-        <tests>ef47ae35-292e-4a81-83bc-4541f042236a</tests>
-        <depends/>
-      </service>
-      <test uuid="cc98a4a8-c8e2-485f-914f-f48f6854d40f">
-        <name>Ping</name>
-        <type>NetworkPing</type>
-        <condition>failed ping</condition>
-        <action>alert</action>
-        <path/>
-      </test>
-      <test uuid="e6de958f-e4b8-4302-beec-ccc70fed723e">
-        <name>NetworkLink</name>
-        <type>NetworkInterface</type>
-        <condition>failed link</condition>
-        <action>alert</action>
-        <path/>
-      </test>
-      <test uuid="db587d59-3193-49bf-b9b4-2b5dd02b9322">
-        <name>NetworkSaturation</name>
-        <type>NetworkInterface</type>
-        <condition>saturation is greater than 75%</condition>
-        <action>alert</action>
-        <path/>
-      </test>
-      <test uuid="7827293e-12ca-47a9-93fe-e1193c9c9722">
-        <name>MemoryUsage</name>
-        <type>SystemResource</type>
-        <condition>memory usage is greater than 75%</condition>
-        <action>alert</action>
-        <path/>
-      </test>
-      <test uuid="63e19253-d2f3-455f-8ba4-7c6372b75cbb">
-        <name>CPUUsage</name>
-        <type>SystemResource</type>
-        <condition>cpu usage is greater than 75%</condition>
-        <action>alert</action>
-        <path/>
-      </test>
-      <test uuid="fc282837-9702-4e03-b99f-45affd3b159c">
-        <name>LoadAvg1</name>
-        <type>SystemResource</type>
-        <condition>loadavg (1min) is greater than 8</condition>
-        <action>alert</action>
-        <path/>
-      </test>
-      <test uuid="98b5198a-b6c5-4c19-9e2c-bd839301c8d4">
-        <name>LoadAvg5</name>
-        <type>SystemResource</type>
-        <condition>loadavg (5min) is greater than 6</condition>
-        <action>alert</action>
-        <path/>
-      </test>
-      <test uuid="4af69a89-12a1-48c2-a07b-3e50b7a22fa2">
-        <name>LoadAvg15</name>
-        <type>SystemResource</type>
-        <condition>loadavg (15min) is greater than 4</condition>
-        <action>alert</action>
-        <path/>
-      </test>
-      <test uuid="865c5b6a-dc34-4346-8f62-db03fe99b952">
-        <name>SpaceUsage</name>
-        <type>SpaceUsage</type>
-        <condition>space usage is greater than 75%</condition>
-        <action>alert</action>
-        <path/>
-      </test>
-      <test uuid="c983e67b-22c3-40b5-a4ab-21a67a5b0c16">
-        <name>ChangedStatus</name>
-        <type>ProgramStatus</type>
-        <condition>changed status</condition>
-        <action>alert</action>
-        <path/>
-      </test>
-      <test uuid="ef47ae35-292e-4a81-83bc-4541f042236a">
-        <name>NonZeroStatus</name>
-        <type>ProgramStatus</type>
-        <condition>status != 0</condition>
-        <action>alert</action>
-        <path/>
-      </test>
-    </monit>
     <OpenVPNExport version="0.0.1">
       <servers/>
     </OpenVPNExport>
@@ -1284,7 +1112,7 @@
         <client_authentications/>
         <max_memory_in_queues/>
       </general>
-      <hiddenservice/>
+      <hiddenservice version="1.0.0"/>
     </tor>
     <postfix>
       <address version="1.0.0">
@@ -2189,6 +2017,182 @@
         </job>
       </jobs>
     </cron>
+    <monit version="1.0.9">
+      <general>
+        <enabled>0</enabled>
+        <interval>120</interval>
+        <startdelay>120</startdelay>
+        <mailserver>127.0.0.1</mailserver>
+        <port>25</port>
+        <username/>
+        <password/>
+        <ssl>0</ssl>
+        <sslversion>auto</sslversion>
+        <sslverify>1</sslverify>
+        <logfile>syslog facility log_daemon</logfile>
+        <statefile/>
+        <eventqueuePath/>
+        <eventqueueSlots/>
+        <httpdEnabled>0</httpdEnabled>
+        <httpdUsername>root</httpdUsername>
+        <httpdPassword>kWbvqLYEtvFzVa71rblQN</httpdPassword>
+        <httpdPort>2812</httpdPort>
+        <httpdAllow/>
+        <mmonitUrl/>
+        <mmonitTimeout>5</mmonitTimeout>
+        <mmonitRegisterCredentials>1</mmonitRegisterCredentials>
+      </general>
+      <alert uuid="f11b11e7-9c7c-4852-8aaf-d9ad5179b357">
+        <enabled>0</enabled>
+        <recipient>root@localhost.local</recipient>
+        <noton>0</noton>
+        <events/>
+        <format/>
+        <reminder>10</reminder>
+        <description/>
+      </alert>
+      <service uuid="7de81048-6369-46f9-95c5-ddb9a6911500">
+        <enabled>1</enabled>
+        <name>$HOST</name>
+        <description/>
+        <type>system</type>
+        <pidfile/>
+        <match/>
+        <path/>
+        <timeout>300</timeout>
+        <address/>
+        <interface/>
+        <start/>
+        <stop/>
+        <tests>7827293e-12ca-47a9-93fe-e1193c9c9722,63e19253-d2f3-455f-8ba4-7c6372b75cbb,fc282837-9702-4e03-b99f-45affd3b159c,98b5198a-b6c5-4c19-9e2c-bd839301c8d4</tests>
+        <depends/>
+      </service>
+      <service uuid="fabbb86b-4762-47d7-95be-d3e86aed5bc4">
+        <enabled>1</enabled>
+        <name>RootFs</name>
+        <description/>
+        <type>filesystem</type>
+        <pidfile/>
+        <match/>
+        <path>/</path>
+        <timeout>300</timeout>
+        <address/>
+        <interface/>
+        <start/>
+        <stop/>
+        <tests>865c5b6a-dc34-4346-8f62-db03fe99b952</tests>
+        <depends/>
+      </service>
+      <service uuid="938e0fda-eddf-4a86-9c9c-270abb8cd2bb">
+        <enabled>0</enabled>
+        <name>carp_status_change</name>
+        <description/>
+        <type>custom</type>
+        <pidfile/>
+        <match/>
+        <path>/usr/local/opnsense/scripts/OPNsense/Monit/carp_status</path>
+        <timeout>300</timeout>
+        <address/>
+        <interface/>
+        <start/>
+        <stop/>
+        <tests>c983e67b-22c3-40b5-a4ab-21a67a5b0c16</tests>
+        <depends/>
+      </service>
+      <service uuid="0e840035-7aa6-42fc-87b5-f9a0ffcc4ee9">
+        <enabled>0</enabled>
+        <name>gateway_alert</name>
+        <description/>
+        <type>custom</type>
+        <pidfile/>
+        <match/>
+        <path>/usr/local/opnsense/scripts/OPNsense/Monit/gateway_alert</path>
+        <timeout>300</timeout>
+        <address/>
+        <interface/>
+        <start/>
+        <stop/>
+        <tests>ef47ae35-292e-4a81-83bc-4541f042236a</tests>
+        <depends/>
+      </service>
+      <test uuid="cc98a4a8-c8e2-485f-914f-f48f6854d40f">
+        <name>Ping</name>
+        <type>NetworkPing</type>
+        <condition>failed ping</condition>
+        <action>alert</action>
+        <path/>
+      </test>
+      <test uuid="e6de958f-e4b8-4302-beec-ccc70fed723e">
+        <name>NetworkLink</name>
+        <type>NetworkInterface</type>
+        <condition>failed link</condition>
+        <action>alert</action>
+        <path/>
+      </test>
+      <test uuid="db587d59-3193-49bf-b9b4-2b5dd02b9322">
+        <name>NetworkSaturation</name>
+        <type>NetworkInterface</type>
+        <condition>saturation is greater than 75%</condition>
+        <action>alert</action>
+        <path/>
+      </test>
+      <test uuid="7827293e-12ca-47a9-93fe-e1193c9c9722">
+        <name>MemoryUsage</name>
+        <type>SystemResource</type>
+        <condition>memory usage is greater than 75%</condition>
+        <action>alert</action>
+        <path/>
+      </test>
+      <test uuid="63e19253-d2f3-455f-8ba4-7c6372b75cbb">
+        <name>CPUUsage</name>
+        <type>SystemResource</type>
+        <condition>cpu usage is greater than 75%</condition>
+        <action>alert</action>
+        <path/>
+      </test>
+      <test uuid="fc282837-9702-4e03-b99f-45affd3b159c">
+        <name>LoadAvg1</name>
+        <type>SystemResource</type>
+        <condition>loadavg (1min) is greater than 8</condition>
+        <action>alert</action>
+        <path/>
+      </test>
+      <test uuid="98b5198a-b6c5-4c19-9e2c-bd839301c8d4">
+        <name>LoadAvg5</name>
+        <type>SystemResource</type>
+        <condition>loadavg (5min) is greater than 6</condition>
+        <action>alert</action>
+        <path/>
+      </test>
+      <test uuid="4af69a89-12a1-48c2-a07b-3e50b7a22fa2">
+        <name>LoadAvg15</name>
+        <type>SystemResource</type>
+        <condition>loadavg (15min) is greater than 4</condition>
+        <action>alert</action>
+        <path/>
+      </test>
+      <test uuid="865c5b6a-dc34-4346-8f62-db03fe99b952">
+        <name>SpaceUsage</name>
+        <type>SpaceUsage</type>
+        <condition>space usage is greater than 75%</condition>
+        <action>alert</action>
+        <path/>
+      </test>
+      <test uuid="c983e67b-22c3-40b5-a4ab-21a67a5b0c16">
+        <name>ChangedStatus</name>
+        <type>ProgramStatus</type>
+        <condition>changed status</condition>
+        <action>alert</action>
+        <path/>
+      </test>
+      <test uuid="ef47ae35-292e-4a81-83bc-4541f042236a">
+        <name>NonZeroStatus</name>
+        <type>ProgramStatus</type>
+        <condition>status != 0</condition>
+        <action>alert</action>
+        <path/>
+      </test>
+    </monit>
   </OPNsense>
   <ca>
     <refid>5ff820d2ce8d6</refid>
