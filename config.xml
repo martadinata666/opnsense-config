@@ -366,6 +366,14 @@
       <blockpriv>1</blockpriv>
       <blockbogons>1</blockbogons>
     </opt2>
+    <openvpn>
+      <internal_dynamic>1</internal_dynamic>
+      <enable>1</enable>
+      <if>openvpn</if>
+      <descr>OpenVPN</descr>
+      <type>group</type>
+      <virtual>1</virtual>
+    </openvpn>
   </interfaces>
   <dhcpd>
     <lan>
@@ -976,9 +984,9 @@
     <servicestatusfilter>postfix, openssh, login, iperf, dhcpd, configd</servicestatusfilter>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <time>1612968260.7605</time>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <username>root@192.168.0.14</username>
+    <time>1613205785.8199</time>
+    <description>/vpn_openvpn_client.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -997,8 +1005,8 @@
       <templates/>
     </captiveportal>
     <Interfaces>
-      <vxlans version="1.0.1"/>
-      <loopbacks version="1.0.0"/>
+      <vxlans/>
+      <loopbacks/>
     </Interfaces>
     <monit version="1.0.8">
       <general>
@@ -1284,7 +1292,7 @@
         <client_authentications/>
         <max_memory_in_queues/>
       </general>
-      <hiddenservice version="1.0.0"/>
+      <hiddenservice/>
     </tor>
     <postfix>
       <address version="1.0.0">
@@ -2375,7 +2383,6 @@
       <verbosity_level>1</verbosity_level>
       <interface>wan</interface>
       <vpnid>2</vpnid>
-      <disable>1</disable>
       <custom_options>tun-mtu 1500;
 tun-mtu-extra 32;
 mssfix 1450;
